@@ -78,6 +78,39 @@ export default function MaxioCaseStudy() {
         </section>
 
         <section className="mt-12">
+  <h2 className="text-2xl font-bold">
+    My Contributions
+  </h2>
+
+  <ul className="mt-4 list-disc space-y-3 pl-6 leading-8 text-gray-700">
+    <li>
+      Initiated the modernization effort by developing an
+      AI-assisted Next.js proof of concept.
+    </li>
+
+    <li>
+      Built the initial Help Center homepage and category
+      navigation experience.
+    </li>
+
+    <li>
+      Collaborated with engineering on documentation
+      architecture, migration planning, and content organization.
+    </li>
+
+    <li>
+      Owned documentation accuracy reviews and GitHub
+      pull request approval workflows.
+    </li>
+
+    <li>
+      Evaluated the new platform against its predecessor
+      and competing documentation websites.
+    </li>
+  </ul>
+</section>
+
+        <section className="mt-12">
           <h2 className="text-2xl font-bold">Results</h2>
           <p className="mt-4 leading-8 text-gray-700">
             A post-launch qualitative assessment documented
@@ -85,6 +118,31 @@ export default function MaxioCaseStudy() {
             including article navigation, usability, content
             freshness, and AI/LLM readiness.
           </p>
+          <div className="mt-8 grid gap-4 sm:grid-cols-3">
+  {[
+    ["1/5 → 5/5", "AI/LLM readiness"],
+    ["2/5 → 5/5", "Article navigation"],
+    ["2/5 → 3/5", "Search capability"],
+  ].map(([score, category]) => (
+    <div
+      key={category}
+      className="rounded-xl border border-gray-200 p-5"
+    >
+      <p className="text-2xl font-bold text-teal-700">
+        {score}
+      </p>
+      <p className="mt-2 text-sm text-gray-600">
+        {category}
+      </p>
+    </div>
+  ))}
+</div>
+
+<p className="mt-4 text-sm text-gray-500">
+  Source: September 2026 Help Center evaluation.
+  Scores reflect a qualitative assessment, not
+  measured performance benchmarks.
+</p>
         </section>
 
         <a
