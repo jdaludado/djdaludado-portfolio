@@ -14,6 +14,40 @@ export default function Home() {
         with AI-assisted development, automation, and modern
         publishing platforms.
       </p>
+            <section className="mt-16 max-w-3xl">
+        <h2 className="text-3xl font-bold">
+          Featured Projects
+        </h2>
+
+        <div className="mt-6 rounded-xl border border-gray-200 p-8 shadow-sm">
+          <p className="text-sm font-semibold uppercase tracking-wide text-teal-700">
+            Documentation Platform Modernization
+          </p>
+
+          <h3 className="mt-3 text-2xl font-bold">
+            Maxio Help Center Transformation
+          </h3>
+
+          <p className="mt-4 text-gray-700">
+            Initiated an AI-assisted Next.js proof of concept
+            that helped drive Maxio&apos;s transition from Zendesk
+            to a modern docs-as-code documentation platform.
+          </p>
+
+          <p className="mt-4 text-gray-700">
+            Collaborated with engineering on a ten-week
+            transformation that migrated more than 1,000
+            articles into a Git-based publishing system.
+          </p>
+
+<a
+  href="/projects/maxio"
+  className="mt-6 inline-block font-semibold text-teal-700 hover:underline"
+>
+  Read Case Study →
+</a>
+        </div>
+      </section>
     </main>
   );
 }
