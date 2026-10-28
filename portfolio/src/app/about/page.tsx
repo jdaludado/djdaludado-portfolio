@@ -51,6 +51,58 @@ export default function AboutPage() {
           workflows more efficient.
         </p>
 
+        <section className="mt-12">
+  <h2 className="text-2xl font-bold">
+    Professional Experience
+  </h2>
+
+  <div className="mt-6 space-y-10">
+    <div>
+      <h3 className="text-xl font-semibold">
+        Maxio
+      </h3>
+
+      <p className="mt-1 font-medium text-teal-700">
+        Senior Documentation & Content Automation Specialist | 2021–2026
+      </p>
+
+      <p className="mt-3 leading-8 text-gray-700">
+        Led documentation modernization initiatives through AI-assisted
+        development, docs-as-code workflows, and content automation.
+        Initiated a Next.js proof of concept that helped establish the
+        direction for Maxio's Help Center transformation. Collaborated
+        with engineering on platform migration, content organization,
+        documentation quality, and GitHub-based publishing workflows.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="text-xl font-semibold">
+        Siemens Digital Industries Software
+      </h3>
+
+      <p className="mt-1 font-medium text-teal-700">
+        Documentation Lead / Technical Editor Principal | 2001–2021
+      </p>
+
+      <p className="mt-3 leading-8 text-gray-700">
+        Served as the sole full-time documentation specialist for
+        approximately 20 years, overseeing documentation planning,
+        information architecture, content development, quality assurance,
+        and publishing for complex enterprise software products.
+      </p>
+
+      <p className="mt-3 leading-8 text-gray-700">
+        Managed documentation processes and release coordination,
+        developed task-oriented online help systems, and collaborated
+        with engineering and product teams to ensure technical accuracy.
+        Trained and supervised contract writers while maintaining
+        responsibility for documentation quality and delivery.
+      </p>
+    </div>
+  </div>
+</section>
+
         <h2 className="mt-12 text-2xl font-bold">
           Areas of Expertise
         </h2>
