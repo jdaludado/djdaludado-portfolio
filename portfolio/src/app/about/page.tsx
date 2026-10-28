@@ -116,6 +116,49 @@ export default function AboutPage() {
           <li>Cross-functional collaboration and technical mentorship</li>
         </ul>
       </div>
+
+<section className="mt-12 border-t border-gray-200 pt-8">
+  <h2 className="text-2xl font-bold">Let's Connect</h2>
+
+   <p className="mt-4 leading-8 text-gray-700">
+    Whether I'm building AI-assisted workflows, coaching middle school
+    volleyball, helping kids learn at church, or experimenting with a
+    new cookie recipe or craft project, I enjoy finding creative ways
+    to solve problems and help people succeed.
+  </p>
+
+  <p className="mt-4 leading-8 text-gray-700">
+    I'm always curious about what's possible when technology,
+    creativity, and a people-first approach come together.
+  </p>
+
+  <p className="mt-4 leading-8 text-gray-700">
+    If you're working on something involving AI, documentation
+    engineering, automation, or a better way to help people learn,
+    I'd love to connect!
+  </p>
+
+  <div className="mt-5 flex flex-wrap gap-6">
+    <a
+      href="https://www.linkedin.com/in/djdaludado/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-medium text-teal-700 hover:underline"
+    >
+      LinkedIn ↗
+    </a>
+
+    <a
+      href="https://github.com/jdaludado"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-medium text-teal-700 hover:underline"
+    >
+      GitHub ↗
+    </a>
+  </div>
+</section>
+
     </main>
   );
 }
