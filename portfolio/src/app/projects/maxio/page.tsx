@@ -110,6 +110,72 @@ export default function MaxioCaseStudy() {
   </ul>
 </section>
 
+<section className="mt-14">
+  <h2 className="text-2xl font-bold">
+    The New Documentation Experience
+  </h2>
+
+  <p className="mt-4 leading-8 text-gray-700">
+    The redesigned Help Center combines task-oriented
+    navigation, structured documentation, and features
+    that make technical content easier to discover and use.
+  </p>
+
+  <div className="mt-8 space-y-10">
+    {[
+      {
+        image: "/homepage.png",
+        title: "Help Center Homepage",
+        description:
+          "Search, featured articles, and task-oriented navigation help users find relevant information.",
+        url: "https://docs.maxio.com",
+      },
+      {
+        image: "/landing-page.png",
+        title: "Product Documentation",
+        description:
+          "Structured navigation and getting-started guidance organize documentation by product area.",
+        url: "https://docs.maxio.com/billing",
+      },
+      {
+        image: "/article.png",
+        title: "Article Experience",
+        description:
+          "Three-column navigation, freshness indicators, and AI-friendly utilities support different ways of consuming documentation.",
+        url: "https://docs.maxio.com/billing/invoicing/overview/understand-how-invoices-are-generated",
+      },
+    ].map((item) => (
+      <figure
+        key={item.image}
+        className="overflow-hidden rounded-xl border border-gray-200"
+      >
+<a
+  href={item.url}
+  target="_blank"
+  rel="noopener noreferrer"
+  title={`Visit ${item.title} on the Maxio Help Center`}
+  className="block"
+>
+  <div className="max-h-[420px] overflow-hidden bg-gray-100">
+    <img
+      src={item.image}
+      alt={item.title}
+      className="h-auto w-full object-top"
+    />
+  </div>
+</a>
+
+        <figcaption className="border-t border-gray-200 bg-gray-50 p-5">
+          <h3 className="font-semibold">{item.title}</h3>
+          <p className="mt-2 text-sm text-gray-600">
+            {item.description}
+          </p>
+        </figcaption>
+      </figure>
+    ))}
+  </div>
+</section>
+
         <section className="mt-12">
           <h2 className="text-2xl font-bold">Results</h2>
           <p className="mt-4 leading-8 text-gray-700">
