@@ -2,13 +2,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white p-12 text-gray-900">
       <nav className="mb-12 flex flex-wrap gap-6 border-b border-gray-200 pb-5">
-  <a
-    href="/"
-    className="font-medium text-teal-700 hover:underline"
-  >
-    Home
-  </a>
-
+ 
   <a
     href="/about"
     className="font-medium text-teal-700 hover:underline"
