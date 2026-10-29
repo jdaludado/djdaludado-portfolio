@@ -1,4 +1,34 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Me",
+  description:
+    "Meet Dawna Joy Daludado, a technical documentation professional with 25+ years of experience in documentation modernization, AI-assisted workflows, and automation.",
+  alternates: {
+    canonical: "/about",
+  },
+  openGraph: {
+    type: "website",
+    url: "/about",
+    title: "About Me | Dawna Joy Daludado",
+    description:
+      "Explore Dawna's background in technical communication, documentation engineering, AI-assisted workflows, and practical automation.",
+    images: [
+      {
+        url: "/portfolio-social.png",
+        alt: "Dawna Joy Daludado — Documentation Engineering & AI Workflows",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Me | Dawna Joy Daludado",
+    description:
+      "Explore Dawna's background in technical communication, documentation engineering, AI-assisted workflows, and practical automation.",
+    images: ["/portfolio-social.png"],
+  },
+};
 
 export default function AboutPage() {
   return (

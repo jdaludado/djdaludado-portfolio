@@ -1,4 +1,34 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Maxio Help Center Case Study",
+  description:
+    "How Dawna Joy Daludado initiated an AI-assisted Next.js proof of concept and collaborated with engineering on Maxio's transition to a modern docs-as-code Help Center.",
+  alternates: {
+    canonical: "/projects/maxio",
+  },
+  openGraph: {
+    type: "website",
+    url: "/projects/maxio",
+    title: "Maxio Help Center Case Study | Dawna Joy Daludado",
+    description:
+      "An AI-assisted prototype, collaborative platform modernization, and migration of more than 1,000 documentation articles to docs-as-code workflows.",
+    images: [
+      {
+        url: "/portfolio-social.png",
+        alt: "Dawna Joy Daludado — Documentation Engineering & AI Workflows",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Maxio Help Center Case Study | Dawna Joy Daludado",
+    description:
+      "An AI-assisted prototype, collaborative platform modernization, and migration of more than 1,000 documentation articles to docs-as-code workflows.",
+    images: ["/portfolio-social.png"],
+  },
+};
 
 export default function MaxioCaseStudy() {
   return (
@@ -102,6 +132,17 @@ export default function MaxioCaseStudy() {
       Owned documentation accuracy reviews and GitHub
       pull request approval workflows.
     </li>
+
+<li>
+  After the production launch, used Claude Code to improve
+  AI visibility and Help Center navigation, working through
+  GitHub pull requests.
+</li>
+
+<li>
+  Used Claude skills to automate MDX frontmatter fields
+  and validate related-article references.
+</li>
 
     <li>
       Evaluated the new platform against its predecessor
