@@ -10,6 +10,15 @@ export default function Home() {
     About Me
   </a>
 
+  <a
+  href="/samples/Dawna_Joy_Daludado_Work_Samples.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="font-medium text-teal-700 hover:underline"
+>
+  Writing Samples
+</a>
+
     <a
     href="/projects/ai-workflows"
     className="font-medium text-teal-700 hover:underline"

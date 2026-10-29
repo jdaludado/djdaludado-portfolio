@@ -80,7 +80,27 @@ export default function AboutPage() {
           prototypes, and finding ways to make complex
           workflows more efficient.
         </p>
+<div className="mt-8 rounded-xl border border-teal-200 bg-teal-50 p-6">
+  <h3 className="text-xl font-semibold text-teal-800">
+    From Process to Published Documentation
+  </h3>
 
+  <p className="mt-3 leading-8 text-gray-700">
+    My writing samples demonstrate how I turn complex technical
+    information into clear, useful documentation. This collection
+    includes conceptual guides, step-by-step instructions, release
+    notes, troubleshooting, and AI-related documentation.
+  </p>
+
+  <a
+    href="/samples/Dawna_Joy_Daludado_Work_Samples.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-5 inline-block rounded-lg bg-teal-700 px-5 py-3 font-medium text-white transition-colors hover:bg-teal-800"
+  >
+    View Writing Samples (PDF) →
+  </a>
+</div>
         <section className="mt-12">
   <h2 className="text-2xl font-bold">
     Professional Experience
