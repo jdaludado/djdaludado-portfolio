@@ -36,6 +36,13 @@ export default function Home() {
         with AI-assisted development, automation, and modern
         publishing platforms.
       </p>
+      <a
+  href="/Dawna_Joy_Daludado_Resume.pdf"
+  download
+  className="mt-6 inline-block rounded-lg bg-teal-700 px-6 py-3 font-semibold text-white hover:bg-teal-800"
+>
+  Download My Resume ↓
+</a>
             <section className="mt-16 max-w-3xl">
         <h2 className="text-3xl font-bold">
           Featured Projects

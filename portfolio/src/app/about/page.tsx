@@ -157,6 +157,13 @@ export default function AboutPage() {
       GitHub ↗
     </a>
   </div>
+  <a
+  href="/Dawna_Joy_Daludado_Resume.pdf"
+  download
+  className="mt-6 inline-block rounded-lg bg-teal-700 px-6 py-3 font-semibold text-white hover:bg-teal-800"
+>
+  Download My Resume ↓
+</a>
 </section>
 
     </main>
