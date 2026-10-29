@@ -76,6 +76,35 @@ export default function Home() {
   Read Case Study →
 </a>
         </div>
+        <div className="mt-6 rounded-xl border border-gray-200 p-8 shadow-sm">
+  <p className="text-sm font-semibold uppercase tracking-wide text-teal-700">
+    AI Skills &amp; Workflow Automation
+  </p>
+
+  <h3 className="mt-3 text-2xl font-bold">
+    AI Workflows &amp; Documentation Automation
+  </h3>
+
+  <p className="mt-4 text-gray-700">
+    Developed reusable Claude skills for content auditing,
+    documentation workflows, and maintenance. Evolved a
+    personal version-controlled repository into a resource
+    shared with Product and Engineering.
+  </p>
+
+  <p className="mt-4 text-gray-700">
+    Applied content auditing across 900+ published articles
+    and developed guided authoring tools and proofs of
+    concept for search and support-driven documentation.
+  </p>
+
+  <a
+    href="/projects/ai-workflows"
+    className="mt-6 inline-block font-semibold text-teal-700 hover:underline"
+  >
+    Read Case Study →
+  </a>
+</div>
       </section>
     </main>
   );
