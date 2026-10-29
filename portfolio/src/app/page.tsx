@@ -16,6 +16,13 @@ export default function Home() {
     About Me
   </a>
 
+    <a
+    href="/projects/ai-workflows"
+    className="font-medium text-teal-700 hover:underline"
+  >
+    AI Workflows
+  </a>
+
   <a
     href="/projects/maxio"
     className="font-medium text-teal-700 hover:underline"
