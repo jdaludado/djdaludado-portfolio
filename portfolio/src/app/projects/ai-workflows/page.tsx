@@ -124,11 +124,12 @@ export default function AIWorkflowsCaseStudy() {
           </h2>
 
           <p className="mt-4 leading-8 text-gray-700">
-            I used a content audit skill in Claude Code to check
-            all 900+ published articles. A shared audit foundation
-            supported specialized skills for different
-            documentation areas, combining product verification,
-            editorial standards, content structure, and validation.
+            I created, tested, and then used a content audit skill
+  in Claude Code to check all 900+ published articles.
+  A shared audit foundation supported specialized skills
+  for different documentation areas, combining product
+  verification, editorial standards, content structure,
+  and validation.
           </p>
 
           <p className="mt-4 leading-8 text-gray-700">
